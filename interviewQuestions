@@ -1,0 +1,69 @@
+Absolutely! Here’s a curated list of SRE (Site Reliability Engineer) interview questions, grouped by category, to help you prepare for different aspects of the role:
+
+🔧 Systems & Infrastructure
+Explain how you would design a highly available system.
+
+What are the differences between vertical and horizontal scaling?
+
+How does load balancing work? What types of load balancers are you familiar with?
+
+What happens when DNS fails? How do you mitigate that risk?
+
+Explain the concept of a “circuit breaker” in distributed systems.
+
+⚙️ Reliability & Monitoring
+What SLIs, SLOs, and SLAs have you defined or worked with?
+
+How do you monitor system health? Which tools do you use?
+
+How do you handle alert fatigue?
+
+What’s the difference between white-box and black-box monitoring?
+
+Describe a time when an alert notified you of an incident. How did you respond?
+
+🛠️ Incident Management
+Walk me through your incident response process.
+
+How do you conduct a postmortem?
+
+Describe a major outage you handled and how you mitigated the issue.
+
+What tools do you use for incident tracking and on-call rotation?
+
+How do you prioritize incidents during a cascading failure?
+
+🖥️ Linux, Networking & Debugging
+What happens when you type a URL in the browser and hit enter?
+
+How would you troubleshoot a slow server?
+
+Explain how TCP works, and the difference between TCP and UDP.
+
+How do you identify and fix memory leaks?
+
+What is the strace command used for?
+
+☁️ Cloud & DevOps
+What’s your experience with Kubernetes, Docker, or Terraform?
+
+How do you manage secrets and configuration across environments?
+
+How do you perform zero-downtime deployments?
+
+What is autoscaling and how do you configure it in GCP/AWS?
+
+How do you manage cost optimization in the cloud?
+
+🧠 Behavioral & Scenario-Based
+Tell me about a time you made a mistake in production. What did you learn?
+
+How do you balance reliability with feature velocity?
+
+How do you push back on engineering teams when reliability is at risk?
+
+Describe a situation where you automated a manual process.
+
+Have you ever disagreed with a decision from leadership or a peer? How did you handle it?
+
+Would you like answers or sample responses for any of these questions? Or want me to tailor questions for a specific tech stack (e.g., GCP, Kubernetes, Terraform, etc.)?

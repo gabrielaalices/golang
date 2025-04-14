@@ -1,0 +1,101 @@
+Google's **SRE (Site Reliability Engineer)** interview process is known for being **technical, systems-focused, and reliability-driven**. It covers a blend of **software engineering, systems design, operations, and incident response**. Here's a breakdown of the types of questions you can expect:
+
+---
+
+## 🧠 1. **Coding Interviews**
+**Format:** Typically 1-2 rounds, 45 minutes each  
+**Focus:** Writing clean, correct code under time constraints
+
+### 🧪 Sample Topics:
+- Data structures: Arrays, Maps, Queues, Trees
+- Algorithms: Search, Sorting, Recursion
+- Real-world problem solving (e.g. log parsing, request throttling)
+
+### ✅ Examples:
+- Write a function to parse and deduplicate entries in a log file.
+- Implement rate limiting for a login system.
+- Find the top K frequent errors in a log stream.
+
+> Leetcode Medium-level questions are a solid prep range (especially with a systems lens).
+
+---
+
+## ⚙️ 2. **Systems Design / Distributed Systems**
+**Format:** Whiteboard or collaborative doc, 1 or more rounds  
+**Focus:** High-level design of scalable, reliable systems
+
+### 🔧 Example Prompts:
+- Design a monitoring system like Prometheus
+- Design a global cache (e.g., CDN edge cache)
+- Design an alerting system with SLA guarantees
+- Design a service that serves ML models at scale
+
+**They’re looking for:**
+- Awareness of tradeoffs (latency vs durability, consistency vs availability)
+- Use of redundancy, fault tolerance, graceful degradation
+- Monitoring, alerting, capacity planning, scaling
+
+---
+
+## 🚨 3. **Incident Handling / Debugging / Oncall Simulation**
+**Format:** Scenario-based discussion  
+**Focus:** How you handle outages, logs, alerts, escalations
+
+### ⚠️ Sample Scenarios:
+- A service has 99% latency spike — walk through diagnosing it.
+- Disk space fills up on a critical node — what’s your plan?
+- A region is down — how do you reroute traffic?
+
+**What they test:**
+- Calm thinking under pressure
+- Root cause analysis
+- Recovery strategies
+- Communication & escalation
+
+---
+
+## 📊 4. **Linux, Networking, and Systems Knowledge**
+**Format:** Quiz-style or conversational  
+**Focus:** Core knowledge of OS, protocols, systems
+
+### 🧷 Topics:
+- TCP vs UDP
+- DNS resolution
+- Process scheduling
+- Memory usage (heap vs stack)
+- File descriptors, sockets
+- `strace`, `tcpdump`, `top`, `lsof`, etc.
+
+---
+
+## 🧩 5. **Behavioral ("Googliness") / Culture Fit**
+**Format:** STAR-style interview  
+**Focus:** Collaboration, leadership, ownership
+
+### 🌟 Typical Prompts:
+- Tell me about a time you resolved a major outage
+- A teammate pushed risky code — what do you do?
+- How do you balance reliability and velocity?
+
+---
+
+## 🛠️ Tools & Concepts to Know
+- **Monitoring & Alerting:** Prometheus, Grafana, SLOs, SLIs
+- **Containers & Orchestration:** Docker, Kubernetes
+- **CI/CD pipelines**
+- **Load balancers, reverse proxies (e.g. NGINX, Envoy)**
+- **Cloud Platforms (GCP, AWS, etc.)**
+
+---
+
+## 🔁 Interview Format Summary:
+| Round                        | Focus                        |
+|-----------------------------|------------------------------|
+| Coding                      | DS & Algorithms (45 mins)    |
+| Systems Design              | Reliability-focused design   |
+| Troubleshooting / Debugging| Real-world incident solving  |
+| Behavioral / Culture Fit    | Communication & ownership    |
+
+---
+
+Want a study plan or question bank to prep more deeply for a Google SRE interview?
